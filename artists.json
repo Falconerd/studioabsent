@@ -1,0 +1,160 @@
+[
+  {
+    "name": "Munzo",
+    "calendarId": "7osemna23q5luife5bqkoqq610@group.calendar.google.com",
+    "availableTimes": {
+      "mo": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "tu": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "we": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        },
+        {
+          "hour": 15,
+          "minute": 30,
+          "duration": 180
+        }
+        ],
+      "th": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "fr": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        },
+        {
+          "hour": 15,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "sa": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        },
+        {
+          "hour": 15,
+          "minute": 30,
+          "duration": 180
+        }
+      ]
+    }
+  },
+  {
+      "name": "Baeki (April 27th - May 7th)",
+      "calendarId": "upiulnemmniqs3dnd7jtd5rtek@group.calendar.google.com",
+      "availableTimes": {
+      "mo": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "tu": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "we": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "th": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "fr": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "sa": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }
+      ],
+      "su": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }
+      ]
+      }
+  },
+  {
+      "name": "Billy (April 27th - May 7th)",
+      "calendarId": "fe82a6nnenpaqk3kdbflfc608k@group.calendar.google.com",
+      "availableTimes": {
+      "mo": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "tu": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "we": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "th": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "fr": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }      ],
+      "sa": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }
+      ],
+      "su": [
+        {
+          "hour": 11,
+          "minute": 30,
+          "duration": 180
+        }
+      ]
+      }
+  }]

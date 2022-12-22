@@ -1,0 +1,40 @@
+.Heading {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  align-items: center;
+}
+
+.TimeSlotButton {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  border: 1px solid var(--accent);
+  background-color: var(--bg);
+  color: var(--fg);
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.TimeSlotButtonSelected {
+  background-color: var(--fg);
+  color: var(--bg);
+}
+
+.MonthButton {
+  border: 1px solid var(--accent);
+  background: var(--bg);
+  color: var(--fg);
+  padding: 0.5rem;
+  display: flex;
+}
+
+.BackToCalendarButton {
+  border: 1px solid var(--accent);
+  background: var(--bg);
+  color: var(--fg);
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+}

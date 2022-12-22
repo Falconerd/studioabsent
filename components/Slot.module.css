@@ -1,0 +1,21 @@
+.Slot {
+  background: var(--bg);
+  color: var(--accent);
+  font-size: 1rem;
+  box-sizing: border-box;
+  border: 1px solid var(--bg);
+  margin: 2px;
+  width: calc(14.28% - 4px);
+  text-align: center;
+  border-bottom: 2px solid transparent;
+}
+
+.SlotAvailable {
+  border-bottom: 2px solid var(--accent);
+  color: var(--fg);
+  margin: 2px;
+  cursor: pointer;
+}
+
+.SlotAvailable:hover {
+}

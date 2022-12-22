@@ -1,0 +1,100 @@
+.BackButton {
+  position: absolute;
+  top: 1.25rem;
+  left: 2rem;
+}
+
+.Form {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.FormItem {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+.FormItem_Description {
+  color: var(--accent);
+  font-size: 0.8rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.FormItem input {
+  background: var(--bg);
+  border: none;
+  border-bottom: 1px solid var(--accent);
+  color: var(--fg);
+  line-height: 2rem;
+  border-radius: 0;
+}
+
+.FormItem input:focus {
+  border-bottom: 1px solid var(--fg);
+  transition: border-bottom 0.15s linear;
+  outline: none;
+}
+
+.FormItem textarea {
+  background: var(--bg);
+  border: 1px dashed var(--accent);
+  border-top: none;
+  border-bottom: 1px solid var(--accent);
+  color: var(--fg);
+  line-height: 2rem;
+  border-radius: 0;
+}
+
+.FormItem textarea:focus {
+  border-bottom: 1px solid var(--fg);
+  transition: border-bottom 0.15s linear;
+  outline: none;
+}
+
+.FormItem select {
+  background: var(--bg);
+  border: 1px solid var(--accent);
+  color: var(--fg);
+  line-height: 2rem;
+  padding: 0.5rem;
+}
+
+.RequiredCheckbox {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.RequiredLabel {
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.SubmitButton {
+  cursor: pointer;
+  background: var(--bg);
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.SubmitButton:disabled {
+  color: var(--accent);
+  border: 1px dashed var(--accent);
+}
+
+.SubmitButton:hover {
+  background-color: var(--bg);
+  color: var(--accent);
+}
+
+.SubmitButton_Enabled {
+  border: 1px solid var(--accent);
+  color: var(--fg);
+}
+
+.SubmitButton_Enabled:hover {
+  background-color: var(--fg);
+  color: var(--bg);
+}

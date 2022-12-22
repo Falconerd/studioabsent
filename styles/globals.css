@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --bg: rgb(2, 3, 6);
+  --fg: rgb(229, 231, 235);
+  --accent: rgb(120, 120, 120);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", Georgia, serif;
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-align: center;
+  padding: 1.5rem 0;
+  margin: 0;
+}
+
+button {
+  border: 1px solid var(--accent);
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--bg);
+  color: var(--fg);
+  cursor: pointer;
+  border-radius: 0.4rem;
+}
+
+select {
+  border-radius: 0.4rem;
+}
+
+button:hover {
+  background-color: var(--fg);
+  color: var(--bg);
+  transition: background-color 0.15s linear, color 0.15s linear;
+}
+
+p {
+  letter-spacing: 0.1rem;
+}
+
+@media (min-width: 992px) {
+  body {
+    max-width: 640px;
+    margin: 0 auto;
+    position: relative;
+  }
+}
